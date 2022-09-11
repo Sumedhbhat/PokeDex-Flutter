@@ -1,4 +1,9 @@
 {
   "image": "cirrusci/flutter:beta",
-  "forwardPorts": [3000]
+  "forwardPorts": [3000],
+  "features": {
+    "ghcr.io/devcontainers/features/sshd:1": {
+        "version": "latest"
+    }
+  },
 }
